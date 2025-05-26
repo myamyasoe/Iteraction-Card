@@ -1,0 +1,172 @@
+@import url("https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300..700&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Space Grotesk", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: normal;
+  font-size: 14px;
+}
+
+.hero-section {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+@media (min-width: 992px) {
+  .hero-section {
+    display: flex;
+    flex-direction: row;
+    max-width: 980px;
+  }
+}
+.hero-section .card {
+  width: 100%;
+  height: 100vh;
+  position: relative;
+  background-color: hsl(278, 68%, 11%);
+  background: repeating-linear-gradient(to bottom right, hsl(278, 68%, 11%), pink);
+  height: 100vh;
+  flex-basis: 300px;
+}
+.hero-section .card .card-one {
+  top: 6rem;
+  left: 4rem;
+  border-radius: 10px;
+  padding: 2rem 0 0 2rem;
+  position: absolute;
+  width: 360px;
+  height: 220px;
+  background-color: hsl(278, 68%, 11%);
+  background: linear-gradient(145deg, #1e3c72, #2a5298, #a044ff, #6a3093, pink);
+}
+.hero-section .card .card-one .header {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+.hero-section .card .card-one .header .circle {
+  width: 40px;
+  height: 40px;
+  background-color: white;
+  border-radius: 50%;
+}
+.hero-section .card .card-one .header .circle-one {
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  border: 2px solid white;
+}
+.hero-section .card .card-one h3 {
+  margin: 3rem 0 1rem;
+  color: hsl(0, 100%, 100%);
+  letter-spacing: 5px;
+  font-weight: weight;
+}
+.hero-section .card .card-one div {
+  display: flex;
+  gap: 8rem;
+}
+.hero-section .card .card-one div p {
+  color: hsl(0, 100%, 100%);
+}
+.hero-section .card .card-two {
+  top: 22rem;
+  left: 8rem;
+  border-radius: 10px;
+  position: absolute;
+  width: 360px;
+  height: 220px;
+  background-color: hsl(0, 100%, 100%);
+  background: linear-gradient(to bottom right, hsl(0, 100%, 100%), hsl(270, 3%, 87%));
+}
+.hero-section .card .card-two .color {
+  background-color: black;
+  width: 100%;
+  height: 40px;
+  margin-top: 20px;
+}
+.hero-section .card .card-two .text {
+  background-color: hsl(212, 12%, 71%);
+  margin: 1rem 2.5rem 1rem 2.5rem;
+  width: 80%;
+  text-align: right;
+  padding: 0.6rem 1rem;
+  color: hsl(0, 100%, 100%);
+}
+.hero-section .card .card-two .para {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: rgba(0, 0, 0, 0.5);
+  margin-top: 2rem;
+}
+.hero-section .card .card-two .para p {
+  font-size: 13px;
+}
+.hero-section .card-input {
+  transform: translateX(300px);
+}
+.hero-section .card-input input::-moz-placeholder {
+  color: rgba(128, 128, 128, 0.603);
+}
+.hero-section .card-input input::placeholder {
+  color: rgba(128, 128, 128, 0.603);
+}
+.hero-section .card-input form {
+  background-color: #fff;
+  padding: 30px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  width: 400px;
+}
+.hero-section .card-input form .column {
+  margin-bottom: 20px;
+}
+.hero-section .card-input form .column label {
+  display: block;
+  margin-bottom: 8px;
+  font-weight: bold;
+  color: #333;
+}
+.hero-section .card-input form .column input[type=name],
+.hero-section .card-input form .column input[type=number] {
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 16px;
+  width: 100%;
+}
+.hero-section .card-input form .row {
+  display: flex;
+  gap: 20px;
+}
+.hero-section .card-input form .row .column .flex {
+  display: flex;
+  gap: 10px;
+}
+.hero-section .card-input form .row .column .flex input {
+  padding: 8px;
+  border: 1px solid #ccc;
+}
+.hero-section .card-input form .row .column input {
+  padding: 8px;
+  border: 1px solid #ccc;
+}
+.hero-section .card-input form .button {
+  width: 100%;
+  padding: 10px;
+  background-color: hsl(278, 68%, 11%);
+  color: white;
+  border: none;
+  border-radius: 8px;
+  font-size: 18px;
+  cursor: pointer;
+}/*# sourceMappingURL=style.css.map */
